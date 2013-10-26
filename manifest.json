@@ -1,0 +1,41 @@
+{
+  "devMode": true,
+  "authorNick": "nasa",
+  "multiple": false,
+  "background": false,
+  "hiddenHandle": false,
+  "openWith": "lastActive",
+  "behavior": "application",
+  "version": "0.1",
+  "name": "ghostInstaller",
+  "identifier": "com.koding.apps.ghostInstaller",
+  "path": "~/Applications/ghostInstaller.kdapp",
+  "homepage": "nasa.kd.io/ghostinstaller",
+  "author": "Nasaruddin -",
+  "repository": "git://github.com/fkadev/ghostInstaller.kdapp.git",
+  "description": "ghostInstaller : a Koding application to create install ghostInstaller.",
+  "category": "installer",
+  "source": {
+    "blocks": {
+      "app": {
+        "files": [
+          "./app/core.coffee",
+          "./recipe/installer.coffee",
+          "./app/utilities.coffee",
+          "./app/views.coffee",
+          "./index.coffee"
+        ]
+      }
+    },
+    "stylesheets": [
+      "./resources/style.css"
+    ]
+  },
+  "options": {
+    "type": "tab"
+  },
+  "icns": {
+    "128": "./resources/icon.128.png"
+  },
+  "menu": []
+}
